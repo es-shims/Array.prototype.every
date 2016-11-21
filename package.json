@@ -1,0 +1,91 @@
+{
+	"name": "array.prototype.every",
+	"version": "0.0.0",
+	"author": {
+		"name": "Jordan Harband",
+		"email": "ljharb@gmail.com",
+		"url": "http://ljharb.codes"
+	},
+	"contributors": [
+		{
+			"name": "Jordan Harband",
+			"email": "ljharb@gmail.com",
+			"url": "http://ljharb.codes"
+		}
+	],
+	"description": "An ES5 spec-compliant `Array.prototype.every` shim/polyfill/replacement that works as far down as ES3.",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"pretest": "npm run --silent lint && evalmd README.md",
+		"test": "npm run --silent tests-only",
+		"posttest": "npm run --silent security",
+		"tests-only": "es-shim-api --bound && npm run --silent test:shimmed && npm run --silent test:module && npm run --silent test:implementation",
+		"test:implementation": "node test/implementation",
+		"test:shimmed": "node test/shimmed",
+		"test:module": "node test/index",
+		"coverage": "covert test/*.js",
+		"coverage:quiet": "covert test/*.js --quiet",
+		"lint": "eslint test/*.js *.js",
+		"security": "nsp check"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ljharb/Array.prototype.every.git"
+	},
+	"keywords": [
+		"Array.prototype.every",
+		"every",
+		"array",
+		"ES5",
+		"shim",
+		"polyfill",
+		"some",
+		"Array.prototype.some",
+		"es-shim API"
+	],
+	"dependencies": {
+		"define-properties": "^1.1.2",
+		"es-abstract": "^1.6.1",
+		"is-string": "^1.0.4"
+	},
+	"devDependencies": {
+		"foreach": "^2.0.5",
+		"function-bind": "^1.1.0",
+		"tape": "^4.6.3",
+		"indexof": "^0.0.1",
+		"covert": "^1.1.0",
+		"nsp": "^2.6.2",
+		"eslint": "^3.10.2",
+		"@ljharb/eslint-config": "^8.0.0",
+		"semver": "^5.3.0",
+		"replace": "^0.3.0",
+		"@es-shims/api": "^1.2.0",
+		"evalmd": "^0.0.17"
+	},
+	"testling": {
+		"files": [
+			"test/index.js",
+			"test/implementation.js",
+			"test/shimmed.js"
+		],
+		"browsers": [
+			"iexplore/6.0..latest",
+			"firefox/3.0..6.0",
+			"firefox/15.0..latest",
+			"firefox/nightly",
+			"chrome/4.0..10.0",
+			"chrome/20.0..latest",
+			"chrome/canary",
+			"opera/10.0..latest",
+			"opera/next",
+			"safari/4.0..latest",
+			"ipad/6.0..latest",
+			"iphone/6.0..latest",
+			"android-browser/4.2"
+		]
+	},
+	"engines": {
+		"node": ">= 0.4"
+	}
+}
