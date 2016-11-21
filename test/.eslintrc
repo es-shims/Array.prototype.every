@@ -1,0 +1,9 @@
+{
+	"rules": {
+		"max-nested-callbacks": [2, 4],
+		"max-params": [2, 3],
+		"no-invalid-this": [1],
+		"sort-keys": 0,
+		"strict": 0
+	}
+}
