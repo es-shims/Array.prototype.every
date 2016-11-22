@@ -24,6 +24,7 @@
 		"test:implementation": "node test/implementation",
 		"test:shimmed": "node test/shimmed",
 		"test:module": "node test/index",
+		"testling": "testling --html > test.html",
 		"coverage": "covert test/*.js",
 		"coverage:quiet": "covert test/*.js --quiet",
 		"lint": "eslint test/*.js *.js",
