@@ -20,7 +20,7 @@
 		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest",
 		"pretest": "npm run --silent lint && evalmd README.md",
 		"test": "npm run --silent tests-only",
-		"posttest": "npm run --silent security",
+		"posttest": "npx aud",
 		"tests-only": "es-shim-api --bound && npm run --silent test:shimmed && npm run --silent test:module && npm run --silent test:implementation",
 		"test:implementation": "node test/implementation",
 		"test:shimmed": "node test/shimmed",
@@ -28,8 +28,7 @@
 		"testling": "testling --html > test.html",
 		"coverage": "covert test/*.js",
 		"coverage:quiet": "covert test/*.js --quiet",
-		"lint": "eslint test/*.js *.js",
-		"security": "nsp check"
+		"lint": "eslint test/*.js *.js"
 	},
 	"repository": {
 		"type": "git",
@@ -57,7 +56,6 @@
 		"tape": "^4.6.3",
 		"indexof": "^0.0.1",
 		"covert": "^1.1.0",
-		"nsp": "^2.6.2",
 		"eslint": "^3.10.2",
 		"@ljharb/eslint-config": "^8.0.0",
 		"semver": "^5.3.0",
