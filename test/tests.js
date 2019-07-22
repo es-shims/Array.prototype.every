@@ -1,13 +1,11 @@
+var hasStrictMode = require('has-strict-mode')();
+
 var global = Function('return this')(); // eslint-disable-line no-new-func
 var trueThunk = function () { return true; };
 var falseThunk = function () { return false; };
 
 var canDistinguishSparseFromUndefined = 0 in [undefined]; // IE 6 - 8 have a bug where this returns false.
 var undefinedIfNoSparseBug = canDistinguishSparseFromUndefined ? undefined : { valueOf: function () { return 0; } };
-var hasStrictMode = (function () {
-	'use strict';
-	return !this;
-}());
 
 var createArrayLikeFromArray = function createArrayLikeFromArray(arr) {
 	var o = {};

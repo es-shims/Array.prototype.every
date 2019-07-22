@@ -3,10 +3,7 @@ var bind = require('function-bind');
 var test = require('tape');
 var runTests = require('./tests');
 
-var hasStrictMode = (function () {
-	'use strict';
-	return !this;
-}());
+var hasStrictMode = require('has-strict-mode')();
 
 test('as a function', function (t) {
 	t.test('bad array/this value', function (st) {

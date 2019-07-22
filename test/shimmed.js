@@ -3,12 +3,10 @@ require('../shim')();
 var test = require('tape');
 var defineProperties = require('define-properties');
 var bind = require('function-bind');
+var hasStrictMode = require('has-strict-mode')();
+
 var isEnumerable = Object.prototype.propertyIsEnumerable;
 var functionsHaveNames = function f() {}.name === 'f';
-var hasStrictMode = (function () {
-	'use strict';
-	return !this;
-}());
 
 var runTests = require('./tests');
 
