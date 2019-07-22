@@ -32,7 +32,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/Array.prototype.every.git"
+		"url": "git://github.com/es-shims/Array.prototype.every.git"
 	},
 	"keywords": [
 		"Array.prototype.every",
