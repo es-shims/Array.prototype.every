@@ -4,8 +4,7 @@ var ES = require('es-abstract/es5');
 var bind = require('function-bind');
 var isString = require('is-string');
 
-// Check failure of by-index access of string characters (IE < 9)
-// and failure of `0 in boxedString` (Rhino)
+// Check failure of by-index access of string characters (IE < 9) and failure of `0 in boxedString` (Rhino)
 var boxedString = Object('a');
 var splitString = boxedString[0] !== 'a' || !(0 in boxedString);
 

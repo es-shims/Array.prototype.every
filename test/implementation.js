@@ -7,8 +7,8 @@ var hasStrictMode = require('has-strict-mode')();
 
 test('as a function', function (t) {
 	t.test('bad array/this value', function (st) {
-		st.throws(bind.call(every, null, undefined, 'a'), TypeError, 'undefined is not an object');
-		st.throws(bind.call(every, null, null, 'a'), TypeError, 'null is not an object');
+		st['throws'](bind.call(every, null, undefined, 'a'), TypeError, 'undefined is not an object');
+		st['throws'](bind.call(every, null, null, 'a'), TypeError, 'null is not an object');
 		st.end();
 	});
 
@@ -27,6 +27,7 @@ test('as a function', function (t) {
 
 			every.call('foo', function () {
 				'use strict';
+
 				sst.equal(typeof this, 'string');
 				sst.equal(this, context);
 			}, context);

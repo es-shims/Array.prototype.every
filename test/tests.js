@@ -79,6 +79,7 @@ module.exports = function (every, t) {
 		st.test('strict mode', { skip: !hasStrictMode }, function (sst) {
 			every([1], function () {
 				'use strict';
+
 				context = this;
 			});
 			sst.equal(context, undefined, 'receiver is undefined in strict mode');
