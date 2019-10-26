@@ -1,7 +1,7 @@
 'use strict';
 
 var define = require('define-properties');
-var ES = require('es-abstract/es6');
+var ES = require('es-abstract/es2015');
 
 var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
