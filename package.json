@@ -67,9 +67,7 @@
 		"functions-have-names": "^1.2.0",
 		"has-strict-mode": "^1.0.0",
 		"indexof": "^0.0.1",
-		"replace": "^1.1.1",
 		"safe-publish-latest": "^1.1.4",
-		"semver": "^6.3.0",
 		"tape": "^4.11.0"
 	},
 	"testling": {
