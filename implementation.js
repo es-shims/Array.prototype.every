@@ -1,6 +1,8 @@
 'use strict';
 
-var ES = require('es-abstract/es5');
+var IsCallable = require('es-abstract/2019/IsCallable');
+var ToObject = require('es-abstract/2019/ToObject');
+var ToUint32 = require('es-abstract/2019/ToUint32');
 var callBound = require('es-abstract/helpers/callBound');
 var isString = require('is-string');
 
@@ -11,16 +13,16 @@ var splitString = boxedString[0] !== 'a' || !(0 in boxedString);
 var $split = callBound('String.prototype.split');
 
 module.exports = function every(callbackfn) {
-	var O = ES.ToObject(this);
+	var O = ToObject(this);
 	var self = splitString && isString(O) ? $split(O, '') : O;
-	var len = ES.ToUint32(self.length);
+	var len = ToUint32(self.length);
 	var T;
 	if (arguments.length > 1) {
 		T = arguments[1];
 	}
 
 	// If no callback function or if callback is not a callable function
-	if (!ES.IsCallable(callbackfn)) {
+	if (!IsCallable(callbackfn)) {
 		throw new TypeError('Array.prototype.every callback must be a function');
 	}
 
