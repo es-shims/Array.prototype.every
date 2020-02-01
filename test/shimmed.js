@@ -2,7 +2,7 @@ require('../shim')();
 
 var test = require('tape');
 var defineProperties = require('define-properties');
-var bind = require('function-bind');
+var callBind = require('es-abstract/helpers/callBind');
 var hasStrictMode = require('has-strict-mode')();
 
 var isEnumerable = Object.prototype.propertyIsEnumerable;
@@ -55,7 +55,7 @@ test('shimmed', function (t) {
 		st.end();
 	});
 
-	runTests(bind.call(Function.call, Array.prototype.every), t);
+	runTests(callBind(Array.prototype.every), t);
 
 	t.end();
 });
