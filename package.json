@@ -66,7 +66,7 @@
 		"has-strict-mode": "^1.0.0",
 		"indexof": "^0.0.1",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.0.0-next.4"
+		"tape": "^5.0.0-next.5"
 	},
 	"testling": {
 		"files": [
