@@ -23,7 +23,7 @@
 		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest",
 		"pretest": "npm run lint && evalmd README.md",
 		"test": "npm run tests-only",
-		"posttest": "npx aud",
+		"posttest": "npx aud --production",
 		"tests-only": "es-shim-api --bound && npm run test:shimmed && npm run test:module && npm run test:implementation",
 		"test:implementation": "node test/implementation",
 		"test:shimmed": "node test/shimmed",
