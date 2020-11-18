@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.1](https://github.com/ljharb/Array.prototype.every/compare/v1.1.0...v1.1.1) - 2020-11-17
+
+### Commits
+
+- [meta] remove testling html file [`0e4e3d1`](https://github.com/ljharb/Array.prototype.every/commit/0e4e3d1c77d62d06ff40bc1564cbc6dceef8c143)
+- [Tests] migrate tests to Github Actions [`e107da3`](https://github.com/ljharb/Array.prototype.every/commit/e107da3a07898cf7c76f44b0193fbcc8bed38638)
+- [Deps] update `es-abstract`; add `call-bind` [`21e8cbf`](https://github.com/ljharb/Array.prototype.every/commit/21e8cbf2071b3c1a06f6e72f946b5729e9eae356)
+- [Tests] use `callBind` from `es-abstract` instead of `function-bind` [`13e3287`](https://github.com/ljharb/Array.prototype.every/commit/13e32876983dd43c0d598962d3afddb0017e9705)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`76384a5`](https://github.com/ljharb/Array.prototype.every/commit/76384a5a10eaf4556431f97a7200b13e15f0ee32)
+- [Tests] run `nyc` on all tests [`add52e1`](https://github.com/ljharb/Array.prototype.every/commit/add52e14441cb2cff384431305cbea62c73eb9da)
+- [actions] add "Allow Edits" workflow [`72f2ee9`](https://github.com/ljharb/Array.prototype.every/commit/72f2ee94179dd906025afc6a6d58b54c7497d1bb)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape`, `functions-have-names` [`3a06d5f`](https://github.com/ljharb/Array.prototype.every/commit/3a06d5f1258ca346f075c3e87750ea5172ccb9a2)
+- [Tests] run all tests with `tape` [`3fd6259`](https://github.com/ljharb/Array.prototype.every/commit/3fd6259ecdbc26750982c20dca0b9379552dc674)
+- [Tests] run es-shim-api postlint [`ce2442b`](https://github.com/ljharb/Array.prototype.every/commit/ce2442b74675a072dfe905a308ce87d9584ca921)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`69feacd`](https://github.com/ljharb/Array.prototype.every/commit/69feacdb425c7d0c77e406829cbfde6164b3aedb)
+- [Dev Deps] update `auto-changelog`; add `aud` [`ea2f06c`](https://github.com/ljharb/Array.prototype.every/commit/ea2f06c4d6546e973affcffb58256e0a9235796a)
+- [Tests] only audit prod deps [`ca6b33a`](https://github.com/ljharb/Array.prototype.every/commit/ca6b33a08268059bcca9c076a134c215601c20d7)
+- [Deps] update `es-abstract` [`cc9aa32`](https://github.com/ljharb/Array.prototype.every/commit/cc9aa322e654ab7f36b8abb685768a1dc4b35b66)
+- [Dev Deps] update `tape` [`f2eea1c`](https://github.com/ljharb/Array.prototype.every/commit/f2eea1c57307828f8f951edcb788b1db7246b827)
+- [Deps] update `es-abstract` [`4955e29`](https://github.com/ljharb/Array.prototype.every/commit/4955e2908cd2993fcc65c7488ecaf7e3b7f8c9f2)
+
 ## [v1.1.0](https://github.com/ljharb/Array.prototype.every/compare/v1.0.0...v1.1.0) - 2019-12-18
 
 ### Commits
