@@ -1,9 +1,9 @@
 'use strict';
 
-var IsCallable = require('es-abstract/2019/IsCallable');
-var ToObject = require('es-abstract/2019/ToObject');
-var ToUint32 = require('es-abstract/2019/ToUint32');
-var callBound = require('es-abstract/helpers/callBound');
+var IsCallable = require('es-abstract/2020/IsCallable');
+var ToObject = require('es-abstract/2020/ToObject');
+var ToUint32 = require('es-abstract/2020/ToUint32');
+var callBound = require('call-bind/callBound');
 var isString = require('is-string');
 
 // Check failure of by-index access of string characters (IE < 9) and failure of `0 in boxedString` (Rhino)
