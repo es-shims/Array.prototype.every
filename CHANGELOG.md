@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.2](https://github.com/ljharb/Array.prototype.every/compare/v1.1.1...v1.1.2) - 2021-02-22
+
+### Commits
+
+- [meta] do not publish Github Action workflows [`875e44c`](https://github.com/ljharb/Array.prototype.every/commit/875e44c72398622faf1f1c7deee3a7bbfe86e7cf)
+- [readme] remove travis badge [`42a8e90`](https://github.com/ljharb/Array.prototype.every/commit/42a8e9032d0f33ec7e911fd9b1c911c61486efb2)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `functions-have-names`, `has-strict-mode`, `tape` [`81950f0`](https://github.com/ljharb/Array.prototype.every/commit/81950f0d117133270734e9a063b5b0b85d34b1f8)
+- [actions] update workflows [`f000ae2`](https://github.com/ljharb/Array.prototype.every/commit/f000ae2535ca2f04111feb911e9bde432fc1ce3f)
+- [Deps] update `call-bind`, `es-abstract` [`b4cce25`](https://github.com/ljharb/Array.prototype.every/commit/b4cce25e45db0b6ea69ab2231212687b8daf5689)
+
 ## [v1.1.1](https://github.com/ljharb/Array.prototype.every/compare/v1.1.0...v1.1.1) - 2020-11-17
 
 ### Commits
