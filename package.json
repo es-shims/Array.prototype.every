@@ -20,7 +20,8 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"prepublish": "! type safe-publish-latest >/dev/null 2>&1 || safe-publish-latest",
+		"prepublish": "not-in-publish || safe-publish-latest",
+		"prepublishOnly": "safe-publish-latest",
 		"pretest": "npm run lint && evalmd README.md",
 		"test": "npm run tests-only",
 		"posttest": "npx aud --production",
