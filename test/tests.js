@@ -1,6 +1,6 @@
 var hasStrictMode = require('has-strict-mode')();
 
-var global = Function('return this')(); // eslint-disable-line no-new-func
+var global = require('globalthis')();
 var trueThunk = function () { return true; };
 var falseThunk = function () { return false; };
 
