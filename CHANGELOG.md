@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.3](https://github.com/ljharb/Array.prototype.every/compare/v1.1.2...v1.1.3) - 2021-10-01
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`9fe3d0a`](https://github.com/ljharb/Array.prototype.every/commit/9fe3d0a0f588c8a41a2844531bcd7fe17b18c356)
+- [Deps] update `es-abstract`, `is-string` [`55222d7`](https://github.com/ljharb/Array.prototype.every/commit/55222d792062e61875b7748c168ae7ef6baa6f42)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `auto-changelog`, `tape` [`dc6a021`](https://github.com/ljharb/Array.prototype.every/commit/dc6a021a2cda8bccd48d858a1eb97b7a4b71ae67)
+- [actions] update workflows` [`d1d4c0a`](https://github.com/ljharb/Array.prototype.every/commit/d1d4c0a6c3232826f3bb6fceed92d12e1718d7da)
+- [readme] add github actions/codecov badges [`b215e97`](https://github.com/ljharb/Array.prototype.every/commit/b215e97d0cfa4d84131f4fa41396999f78fcc08d)
+- [Dev Deps] update `eslint`, `tape` [`6e28cc4`](https://github.com/ljharb/Array.prototype.every/commit/6e28cc4b157bb3ab57a63052c2968a1d333a3762)
+- [Tests] use `globalthis` package [`0c52785`](https://github.com/ljharb/Array.prototype.every/commit/0c52785a405a178d58e521dc33dde92926cc3b42)
+- [meta] use `prepublishOnly`, for npm 7+ [`e31ea04`](https://github.com/ljharb/Array.prototype.every/commit/e31ea04867b3aaa05f927b4b6e8f6e737ac830d1)
+- [Tests] increase coverage [`514fca3`](https://github.com/ljharb/Array.prototype.every/commit/514fca32f0c17df5f22a562648faa5306160f630)
+- [Deps] update `es-abstract` [`eea3f0b`](https://github.com/ljharb/Array.prototype.every/commit/eea3f0b2e92056c2684304ce7a0ed5f4983a66ea)
+- [meta] remove `audit-level` [`26c8903`](https://github.com/ljharb/Array.prototype.every/commit/26c8903bfe19a7b7b15e712c114f9fe4df7c229f)
+
 ## [v1.1.2](https://github.com/ljharb/Array.prototype.every/compare/v1.1.1...v1.1.2) - 2021-02-22
 
 ### Commits
