@@ -1,8 +1,8 @@
 'use strict';
 
-var IsCallable = require('es-abstract/2021/IsCallable');
-var ToObject = require('es-abstract/2021/ToObject');
-var ToUint32 = require('es-abstract/2021/ToUint32');
+var IsCallable = require('es-abstract/2022/IsCallable');
+var ToObject = require('es-abstract/2022/ToObject');
+var ToUint32 = require('es-abstract/2022/ToUint32');
 var callBound = require('call-bind/callBound');
 var isString = require('is-string');
 
