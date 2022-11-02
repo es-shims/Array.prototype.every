@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.4](https://github.com/ljharb/Array.prototype.every/compare/v1.1.3...v1.1.4) - 2022-11-02
+
+### Commits
+
+- [actions] reuse common workflows [`6546653`](https://github.com/ljharb/Array.prototype.every/commit/6546653609c01fa84892c34c24589748d801e876)
+- [meta] use `npmignore` to autogenerate an npmignore file [`ba0fd04`](https://github.com/ljharb/Array.prototype.every/commit/ba0fd04440f3873328557785d99d049f82fee04c)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`b25d031`](https://github.com/ljharb/Array.prototype.every/commit/b25d031f58bee50923dd71c5f1f3ef60b166fcb1)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `globalthis`, `tape` [`3414668`](https://github.com/ljharb/Array.prototype.every/commit/34146683190043930b3b84f4e33c4c744d574401)
+- [Deps] update `define-properties`, `es-abstract` [`4cf6ff7`](https://github.com/ljharb/Array.prototype.every/commit/4cf6ff7b4fa0b076ffbc122271bd2c181149a5e3)
+- [actions] update rebase action to use reusable workflow [`6d80fe3`](https://github.com/ljharb/Array.prototype.every/commit/6d80fe3cac18bf1b012c1658f911515a1c90acdc)
+- [actions] update codecov uploader [`107705f`](https://github.com/ljharb/Array.prototype.every/commit/107705f3eb0afd76d90bf732b5b4b4be25e33f85)
+- [Deps] update `es-abstract` [`4e9fc6b`](https://github.com/ljharb/Array.prototype.every/commit/4e9fc6b5741d24d34e689e40a487b1f1337e1929)
+
 ## [v1.1.3](https://github.com/ljharb/Array.prototype.every/compare/v1.1.2...v1.1.3) - 2021-10-01
 
 ### Commits
