@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.6](https://github.com/ljharb/Array.prototype.every/compare/v1.1.5...v1.1.6) - 2024-03-16
+
+### Commits
+
+- [Refactor] update `es-abstract`, use `es-object-atoms` [`536750d`](https://github.com/ljharb/Array.prototype.every/commit/536750d5942f77cfc58bd92243a2cee3ce4028da)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`cd4fd18`](https://github.com/ljharb/Array.prototype.every/commit/cd4fd185132ecd474768b45abcdd239db4554df3)
+
 ## [v1.1.5](https://github.com/ljharb/Array.prototype.every/compare/v1.1.4...v1.1.5) - 2023-08-27
 
 ### Commits
