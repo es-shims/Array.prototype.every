@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.7](https://github.com/ljharb/Array.prototype.every/compare/v1.1.6...v1.1.7) - 2024-12-11
+
+### Commits
+
+- [actions] split out node 10-20, and 20+ [`5256a8f`](https://github.com/ljharb/Array.prototype.every/commit/5256a8fe6ea025f8afdea732026f3e2bea764fc1)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `globalthis`, `tape` [`0d34a75`](https://github.com/ljharb/Array.prototype.every/commit/0d34a752c418c25e9cda7e665c9554cd74a03c9c)
+- [Refactor] use `call-bound` instead of `call-bind` [`f4b1eca`](https://github.com/ljharb/Array.prototype.every/commit/f4b1ecab6b58691bd33f37b71f450ae3796a250e)
+- [Deps] update `call-bind`, `es-abstract`, `is-string` [`4e893eb`](https://github.com/ljharb/Array.prototype.every/commit/4e893eb8fa1fa187cd1f613155663947f2dcff90)
+- [Tests] replace `aud` with `npm audit` [`96d1c28`](https://github.com/ljharb/Array.prototype.every/commit/96d1c28ee1bf458d7798d67bc5534871cea2083f)
+- [Dev Deps] add missing peer dep [`7152082`](https://github.com/ljharb/Array.prototype.every/commit/7152082129313297d98893be9baafa07b03843ea)
+
 ## [v1.1.6](https://github.com/ljharb/Array.prototype.every/compare/v1.1.5...v1.1.6) - 2024-03-16
 
 ### Commits
