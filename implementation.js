@@ -3,7 +3,7 @@
 var IsCallable = require('es-abstract/2024/IsCallable');
 var ToObject = require('es-abstract/2024/ToObject');
 var ToUint32 = require('es-abstract/2024/ToUint32');
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 var isString = require('is-string');
 
 // Check failure of by-index access of string characters (IE < 9) and failure of `0 in boxedString` (Rhino)

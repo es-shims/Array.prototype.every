@@ -2,7 +2,7 @@
 
 var define = require('define-properties');
 var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 
 var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
